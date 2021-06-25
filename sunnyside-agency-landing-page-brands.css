@@ -1,0 +1,116 @@
+.brand_one,.brand_two{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:400px;
+    justify-content: center;
+    align-items: center;
+}
+.brand_text_one,.brand_text_two{
+    width:50%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.brand_one_size,.brand_two_size{
+    width:50%;
+    height:62%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.brand_one_text,.brand_two_text{
+    font-size:2vw;
+    font-weight:bolder;
+}
+.brand_one_desc,.brand_two_desc{
+    color:hsla(198, 62%, 26%, 0.459)
+}
+.link_style{
+    font-weight:bolder;
+    font-size:1.1vw;
+    color:black;
+}
+.brand_pic_one,.brand_pic_two{
+    width:50%;
+    height:inherit;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.brand_pic_one{
+    background-image:url('images/desktop/image-transform.jpg');
+}
+.brand_pic_two{
+    background-image:url('images/desktop/image-stand-out.jpg');
+}
+.button_cursort{
+    position:relative;
+}
+.red::after,.yellow::after{
+    content:'';
+    position:absolute;
+    width: 100%;
+    height:5px;
+    top:100%;
+    right:0%;
+    transform:scale(0,1);
+    transition:transform 0.3s ease;
+}
+.red::after{
+    background-color:hsl(7, 99%, 70%);
+}
+.yellow::after{
+    background-color:hsl(51, 100%, 49%);
+}
+.red:hover::after,.yellow:hover::after{
+    transform:scale(1,1);
+}
+.brand_final{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:700px;
+}
+.brand_pic_three,.brand_pic_four{
+    background-position:center;
+    background-size:100% 100%;
+    flex:1;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.brand_pic_three{
+    background-image:url('images/desktop/image-graphic-design.jpg');
+}
+.brand_pic_four{
+    background-image:url('images/desktop/image-photography.jpg');
+}
+.brand_three_comp,.brand_four_comp{
+    width:60%;
+    margin-bottom:15%;
+}
+.brand_three_comp{
+    color:hsl(167, 40%, 24%);
+}
+.brand_four_comp{
+    color:hsl(198, 62%, 26%);
+}
+.brand_three_header,.brand_four_header{
+    width:100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight:bolder;
+    font-size: 20px;
+    margin-bottom:10%;
+}
+.brand_three_desc,.brand_four_desc{
+    margin:0 auto;
+    width:70%;
+}
