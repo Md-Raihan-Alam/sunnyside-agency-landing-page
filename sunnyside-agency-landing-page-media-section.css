@@ -1,4 +1,4 @@
-@media all and (max-width:375px){
+@media all and (max-width:475px){
     .header_desing{
         background-image:url('images/mobile/image-header.jpg');
         z-index:-111;
