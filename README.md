@@ -1,8 +1,8 @@
 # sunnyside-agency-landing-page
 
---It is a first big project I took on myself after completing freecodecamp projects
+--It is a first big project I took onto myself after completing freecodecamp projects
 
---As it is lading page the main work was on html and css. JS us used but not much
+--As it is landing page the main work was on html and css. JS us used but not much
 
 --The little difficult that I face was when animating menu option. I faced a few bugs while making it
    -- some bugs were like the text disappeared before  the animation finished
